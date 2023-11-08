@@ -9,9 +9,9 @@
             android:shape="rectangle">
             <gradient
                 android:angle="@integer/material_motion_duration_long_2"
-                android:startColor="#6D5A2E"
+                android:startColor="#48426D"
                 android:centerColor="#131523"
-                android:endColor="#2C3029">
+                android:endColor="#48426D">
 
             </gradient>
 
