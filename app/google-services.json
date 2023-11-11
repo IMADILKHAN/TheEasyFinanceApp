@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254913705800",
+    "project_id": "theeasyfinapp",
+    "storage_bucket": "theeasyfinapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254913705800:android:118dee17f6bbc4086de57d",
+        "android_client_info": {
+          "package_name": "sag.project.theeasyfinappsplashscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3_AtmleAgu7xcA4bjyEycqILfuyFr56I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -55,9 +55,11 @@
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailET"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Email Id"
+            android:hint="Type your Email"
+            android:inputType="textEmailAddress" />
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -119,6 +121,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Password"
+            android:id="@+id/passET"
+            android:inputType="textPassword"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
