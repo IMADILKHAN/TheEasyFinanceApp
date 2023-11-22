@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvTitleHomePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="20sp"
+        android:textColor="@color/saffron"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@color/brown"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Spendings"
+            android:backgroundTint="@color/brown"
+            android:textColor="@color/saffron"
+            android:textSize="17sp"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount Left"
+            android:backgroundTint="@color/saffron"
+            android:textColor="@color/brown"
+            android:textSize="17sp"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/HomeItem"
+        android:icon="@drawable/baseline_home_24"
+        />
+
+
+    <item android:title="Card"
+        android:id="@+id/CardsItem"
+        android:icon="@drawable/baseline_credit_card_24"
+        />
+
+    <item android:title="Invest"
+        android:id="@+id/InvestItem"
+        android:icon="@drawable/baseline_invest_24"
+        />
+
+    <item android:title="Profile"
+        android:id="@+id/UsersItem"
+        android:icon="@drawable/baseline_user_alt_24"
+        />
+
+</menu>

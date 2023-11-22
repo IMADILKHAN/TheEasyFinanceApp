@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_background"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvHomefragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/saffron"
+        android:padding="30dp"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/ForBtn"
+        android:textSize="50sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:backgroundTint="@color/brown"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Transactions"
+            android:textColor="@color/saffron"
+            android:textSize="30sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
