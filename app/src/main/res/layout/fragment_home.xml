@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,8 +10,9 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <!-- Home TextView -->
     <TextView
-        android:id="@+id/tvHomefragment"
+        android:id="@+id/tvHomeFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/saffron"
@@ -19,16 +21,13 @@
         android:textAlignment="center"
         android:textColor="@color/ForBtn"
         android:textSize="50sp"
-        android:textStyle="bold">
+        android:textStyle="bold"/>
 
-    </TextView>
-
-
+    <!-- Transactions Button Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="match_parent"
@@ -38,15 +37,7 @@
             android:paddingBottom="30dp"
             android:text="Transactions"
             android:textColor="@color/saffron"
-            android:textSize="30sp"
-            />
-
-
+            android:textSize="30sp"/>
     </LinearLayout>
-
-
-
-
-
 
 </LinearLayout>
