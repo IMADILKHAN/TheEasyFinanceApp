@@ -47,30 +47,30 @@ class InvestFragment : Fragment() {
 
             // Display the results
             view?.findViewById<TextView>(R.id.tvStockCorpus)?.apply {
-                text = "Stock Corpus: $stockCorpus"
+                text = "Stock Corpus Rs: $stockCorpus /"
                 visibility = View.VISIBLE
             }
 
             view?.findViewById<TextView>(R.id.tvBondCorpus)?.apply {
-                text = "Bond Corpus: $bondCorpus"
+                text = "Bond Corpus Rs: $bondCorpus /"
                 visibility = View.VISIBLE
             }
 
             view?.findViewById<TextView>(R.id.tvFDCorpus)?.apply {
-                text = "FD Corpus: $fdCorpus"
+                text = "FD Corpus Rs: $fdCorpus /"
                 visibility = View.VISIBLE
             }
         }
     }
 
 
-    private fun calculateCorpus(sipAmount: Double, annualReturnRate: Double, numberOfYears: Double): Double {
+    private fun calculateCorpus(sipAmount: Double, annualReturnRate: Double, numberOfYears: Double): Int {
         val monthlyReturnRate = Math.pow(1 + annualReturnRate, 1.0 / 12.0) - 1
         val totalMonths = numberOfYears * 12
 
-        var corpus = 0.0
+        var corpus = 0
         repeat(totalMonths.toInt()) {
-            corpus = (corpus + sipAmount) * (1 + monthlyReturnRate)
+            corpus = ((corpus + sipAmount) * (1 + monthlyReturnRate)).toInt()
         }
 
         return corpus
