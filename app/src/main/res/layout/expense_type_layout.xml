@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radiobtnGrocery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grocery"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnInvestment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investment"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnTransportation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transportation"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnBaby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baby"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnBeauty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beauty"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnBills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bills"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnClothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clothing"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnEntertainment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grocery"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnInsurance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insurance"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnTax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tax"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnSport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sport"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/radiobtnOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="25sp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
