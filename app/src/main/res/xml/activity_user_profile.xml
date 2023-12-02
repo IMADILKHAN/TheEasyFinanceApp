@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_user_profile.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"> <!-- Set the background drawable -->
+
+    <!-- Profile Photo -->
+    <ImageView
+        android:id="@+id/imageViewProfilePhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/default_profile_photo"
+        android:scaleType="centerCrop"
+    /><!-- Set a default profile photo -->
+
+    <!-- User Information -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewProfilePhoto"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username"
+        android:textColor="#FFFFFF"/> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUsername"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Email"
+        android:textColor="#FFFFFF"/> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Contact Number"
+        android:textColor="#FFFFFF"/> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/textViewJoiningDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewContactNumber"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Joining Date"
+        android:textColor="#FFFFFF"/> <!-- Set text color to white -->
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewJoiningDate"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Age"
+        android:textColor="#FFFFFF"/> <!-- Set text color to white -->
+
+    <!-- Add logic to load and display other user information as needed -->
+
+</RelativeLayout>
