@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_arrow_upward_24"
+                />
+
+            <EditText
+                android:id="@+id/etTypeofExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type of Expense"
+                android:textSize="23sp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:textSize="20sp"
+            android:layout_marginStart="35dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
