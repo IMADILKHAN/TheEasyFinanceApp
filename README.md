@@ -3,6 +3,6 @@
 
 _following are the techonlogies used_
 
-*Kotlin.
-*Firebase. 
-*Git [For Version Control].
+  *Kotlin.
+  *Firebase. 
+  *Git [For Version Control].
