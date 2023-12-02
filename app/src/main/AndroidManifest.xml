@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TheEasyFinAppSplashScreen"
         tools:targetApi="31">
         <activity
+            android:name=".TransactionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".dasboardActivity"
             android:exported="false" />
         <activity
